@@ -1,0 +1,40 @@
+section.menu{
+    width: 100%;
+    height: 50px;
+    background-color: lightgray;
+}
+
+section.menu>nav{
+    width: inherit;
+    height: inherit;
+}
+section.menu>nav>ul{
+    width: 50%;
+    height: inherit;
+    margin: 0 auto;
+    list-style: none;
+}
+section.menu>nav>ul>li{
+    width: 150px;
+    height: inherit;
+    display: inline-block;
+}
+section.menu>nav>ul>li>a{
+    display: block;
+    width: inherit;
+    height: inherit;
+    text-decoration: none;
+    line-height: 50px;
+    text-align: center;
+    color: darkslategray;
+    transition: all linear 300ms;
+}
+section.menu>nav>ul>li>a:hover{
+    background-color:darksalmon;
+    color: whitesmoke;
+}
+section.menu>nav>ul>li>a>i{
+    margin-left: 5px;
+    color:darkslategray
+}
+
