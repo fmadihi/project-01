@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: IRANSANS;
+    src: url('../fonts/Iranian-Sans/iranian-sans.eot');
+    src: url('../fonts/Iranian-Sans/iranian-sans.otf');
+    src: url('../fonts/Iranian-Sans/iranian-sans.woff');
+    src: url('../fonts/Iranian-Sans/iranian-sans.woff2');
+}
+
+body{
+    direction: rtl;
+    font-family: IRANSANS;
+}
+main.wrapper{
+    width: 100%;
+    padding: 12px;
+    background-color: antiquewhite;
+}
