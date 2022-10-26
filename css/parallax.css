@@ -1,0 +1,34 @@
+section.parallax {
+    width: 100%;
+    height: 500px;
+    padding-top: 150px;
+    background: url("../image/parallax.jpg") no-repeat fixed center center;
+    background-size: cover;
+}
+
+section.parallax>section.slogan {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    box-shadow: 5px 5px 5px black, -5px -5px 5px black;
+    border-radius: 15px;
+    transition: all linear 300ms;
+}
+
+section.parallax>section.slogan>h1 {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+section.parallax>section.slogan>p {
+    color: white;
+    font-size: 13px;
+    text-align: justify;
+    line-height: 25px;
+}
+section.parallax>section.slogan:hover{
+    box-shadow: 5px 5px 5px darksalmon, -5px -5px 5px darksalmon;
+}
