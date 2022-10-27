@@ -1,0 +1,77 @@
+section.form{
+    width: 100%;
+    background-color: #111111;
+    padding: 30px;
+    box-sizing: border-box;
+}
+section.form>form{
+    width: 80%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+section.form>form>label{
+    display: block;
+    color: whitesmoke;
+    font-size: 15px;
+    margin-bottom: 15px;
+    font-family: IRANSANS;
+    font-weight: normal;
+}
+section.form>form>input[type=text],input[type=email]{
+    display: block;
+    width: 80%;
+    height: 40px;
+    padding-right: 10px;
+    background-color: transparent;
+    margin-bottom:15px ;
+    border: none;
+    border-bottom: 2px solid lightsalmon;
+    font-size: 13px;
+    font-family: IRANSANS;
+    box-sizing: border-box;
+    outline: none;
+    color: whitesmoke;
+    transition: all 400ms linear;
+}
+section.form>form>input[type=text]:focus{
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+section.form>form>input[type=email]:focus{
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.8);
+
+}
+section.form>form>textarea{
+    display: block;
+    width: 80%;
+    height: 150px;
+    resize: none;
+    padding: 10px;
+    background-color: transparent;
+    font-size: 13px;
+    font-family: IRANSANS;
+    box-sizing: border-box;
+    color: whitesmoke;
+    outline: none;
+    margin-bottom: 15px;
+    transition: all 400ms linear;
+}
+section.form>form>textarea:focus{
+    background-color: rgba(0, 0, 0, 0.8);
+
+}
+section.form>form>input[type=submit]{
+    display: block;
+    width: 40%;
+    height: 40px;
+    background-color: darksalmon;
+    border: 2px solid rgb(247, 139, 103);
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: IRANSANS;
+    font-size: 13px;
+}
