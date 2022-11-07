@@ -1,0 +1,16 @@
+footer {
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: #000000;
+}
+
+footer>section.link,
+footer>section.social,
+footer>section.product {
+    width: 33%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: aliceblue;
+    display: inline-block;
+}
